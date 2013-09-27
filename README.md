@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-  run rails generate nginx_unicorn_vhost <server_name> <site_domain>
+    run rails generate nginx_unicorn_vhost <server_name> <site_domain>
 
 
 ## Contributing
