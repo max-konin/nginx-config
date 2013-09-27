@@ -1,6 +1,6 @@
 # Nginx::Config
 
-Gem implement generator for generate config file for unicorn server instance for nginx
+Gem contains a generator to create virtual hosts config unicorn instance for server nginx
 
 ## Installation
 
@@ -10,7 +10,7 @@ Add this line to your application's Gemfile:
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 Or install it yourself as:
 
@@ -18,6 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
+  run rails generate nginx_unicorn_vhost <server_name> <site_domain>
 
 
 ## Contributing
