@@ -1,6 +1,6 @@
 # Nginx::Config
 
-TODO: Write a gem description
+Gem implement generator for generate config file for unicorn server instance for nginx
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+
 
 ## Contributing
 
