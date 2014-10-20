@@ -1,4 +1,5 @@
-server unix:/var/www/<%= name %>/shared/unicorn.sock fail_timeout=0;
+upstream <%= name %>_server {
+    unix:/var/www/<%= name %>/shared/unicorn.sock fail_timeout=0;
 }
 
 server {
